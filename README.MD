@@ -54,7 +54,10 @@ The rules are stored in MongoDB for future use, and they are evaluated using a s
             "dev": "nodemon index.js",
             "test": "echo \"Error: no test specified\" && exit 1"
         },
-        
+
+- Now run npm start on terminal:
+
+        cd server
         npm start
 
 
