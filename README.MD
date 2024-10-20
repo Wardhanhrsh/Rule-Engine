@@ -33,27 +33,34 @@ The rules are stored in MongoDB for future use, and they are evaluated using a s
 
 ### Backend Setup
 1. Clone the repository:
+    
         git clone https://github.com/yourusername/rule-engine-ast.git
 
 2. Install dependencies:
+
         npm install
 
 3. Set up environment variable by creating a .env file:
+        
         ATLAS_URI = <your_mongodb_connection_string>
         PORT=5000
 
 4. Start the backend server:
+        
         npm start
 
 ### Frontend Setup
 
 1. Navigate to the client folder:
+        
         cd client
 
 2. Install dependencies:
+        
         npm install
 
 3. Start the frontend:
+        
         npm start
 
 ## API Endpoints
@@ -61,6 +68,7 @@ The rules are stored in MongoDB for future use, and they are evaluated using a s
 1. Create Rule
 - Endpoint: POST /api/rules/create_rule
 - Body:
+        
         {
         "ruleString": "age > 30 AND department = 'Sales'"
         }
@@ -68,6 +76,7 @@ The rules are stored in MongoDB for future use, and they are evaluated using a s
 2. Combine Rules
 - Endpoint: POST api/rules/combine_rules
 - Body:
+        
         {
         "ruleStrings": ["age > 30 AND department = 'Sales'", "salary > 50000"]
         }
@@ -75,6 +84,7 @@ The rules are stored in MongoDB for future use, and they are evaluated using a s
 3. Evaluate Rule
 - Endpoint: POST /api/rules/evaluate_rule
 - Body:
+        
         {
             "ast": { ... }, 
             "data": {
