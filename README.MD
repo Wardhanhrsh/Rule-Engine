@@ -46,8 +46,17 @@ The rules are stored in MongoDB for future use, and they are evaluated using a s
         PORT=5000
 
 4. Start the backend server:
+
+- Add scripts in package.json inside server folder
+
+        "scripts": {
+            "start": "node index.js",
+            "dev": "nodemon index.js",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
         
         npm start
+
 
 ### Frontend Setup
 
