@@ -1,0 +1,27 @@
+.Box{
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    margin: 100px auto;
+    text-align: center;
+    width:30%;
+    padding: 20px 80px 20px 50px;
+    box-shadow: 0 5px 15px rgba(240, 14, 14, 0.06);
+}
+.box-one{
+    border-radius: 10px;
+}
+.btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ff5722; /* Orange color */
+        border: none;
+        border-radius: 25px; /* Rounded corners */
+        color: white;
+        font-weight: bold;
+      padding: 10px 20px;
+      cursor: pointer;
+  margin: auto;
+    
+}
