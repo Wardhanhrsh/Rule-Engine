@@ -9,19 +9,15 @@ The rules are stored in MongoDB for future use, and they are evaluated using a s
 ## Features
 
 - A user-friendly interface to input rules, and evaluate rules using sample user data.
-
 ![plot](./preview1.png)
 
 - Rule Creation: Convert logical rule strings (e.g., age > 30 AND department = 'Sales') into ASTs.
-
 ![plot](./preview2.png)
 
 - Rule Evaluation: Evaluate user-provided data against the rule AST to determine eligibility.
-
 ![plot](./preview3.png)
 
 - Rule Combination: Merge multiple rules into a single, combined AST for complex logic.
-
 ![plot](./preview4.png)
 
 -  All rules are stored in MongoDB.
