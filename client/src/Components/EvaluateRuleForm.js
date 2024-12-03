@@ -90,7 +90,7 @@ function EvaluateRule() {
       </div>
       <br />
       <button className='btn' onClick={evaluateRule}>Evaluate Rule</button>
-
+      <button></button>
       {result && <h3>{result}</h3>}
     </div>
   );
